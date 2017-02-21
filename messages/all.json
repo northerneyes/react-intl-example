@@ -1,0 +1,1 @@
+{"ru":{"welcome":"Привет {name}, у тебя {unreadCount, number} {unreadCount, plural, one {сообщение} other {сообщений}}"}}
