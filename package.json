@@ -8,11 +8,10 @@
     "getstorybook": "getstorybook",
     "extract-messages": "node --harmony ./extractMessages.js",
     "combine-messages": "node ./combineMessages.js",
-    "storybook": "start-storybook -s ./ -p 6006",
+    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@kadira/storybook": "2.35.0",
     "babel-core": "^6.23.1",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.3.2",
@@ -48,5 +47,8 @@
     "webpack": "^2.2.1",
     "webpack-dev-middleware": "^1.10.1",
     "webpack-hot-middleware": "^2.17.0"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0"
   }
 }
